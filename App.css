@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9980.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixes background while scrolling */
+    background-position: center;
+    color: azure;
+  }
+  .form-container{
+  margin-top: 20px;
+  margin-left: 100px;
+  }
+  .form-container2{
+    margin-top: 20px;
+    margin-left: 1000px;
+    }
+  h2{
+    display: inline-block;
+    margin-bottom: 20px;
+    color:red;
+    font-size: 40px;
+  }
+  .feedback{margin-left: 16px; margin-top: 5px;}
+  .rating{margin-top: 5px;}
+  .dept{margin-top: 5px;}
+  .email{margin-left: 46px;}
+  .name{margin-left: 12px;}
+  .r1{
+    margin-left: 58px;
+  }
+  .r2{
+  margin-left: 91px;
+  }
+  .r3{
+    margin-left: 83px;
+  }
+  .r4{
+    margin-left:62px ;
+  }
+  .r5{
+    margin-right:57px;
+  }
+  .r6{
+    margin-left: 78px;
+  }
+  .submit{
+    height:35px;
+    width: 110px;
+    background-color: rgba(255, 68, 0, 0.798);
+    color: aliceblue;
+    border-radius: 5px;
+    border: 3px solid orangered;
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .student-link, .employee-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid transparent; 
+    border-radius: 5px;
+  }
+  
+  .student-link {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(27, 27, 143), rgb(5, 5, 255));
+    margin-left: 5rem;
+    margin-top: 20px;
+  }
+  
+  .employee-link {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(138, 43, 226), rgb(75, 0, 130));
+    margin-left: 5rem;
+    margin-top: 20px;
+  }
+  
+  .App {
+    position: relative;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh; 
+  }
+  
+  .student-link:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .employee-link:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .submit2{
+    height:35px;
+    width: 110px;
+    background-color: rgba(255, 68, 0, 0.798);
+    color: aliceblue;
+    border-radius: 5px;
+    border: 3px solid orangered;
+   margin-left: 90px;
+   margin-top: 10px;
+  }
